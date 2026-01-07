@@ -153,9 +153,3 @@ firebase deploy
 
 ---
 
-## Next step (for the owner)
-
-This demo repository is separate from the private development repository, which contains:
-- Real Firebase configuration
-- Development secrets
-- Ongoing feature work
