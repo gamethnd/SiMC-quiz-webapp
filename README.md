@@ -1,5 +1,9 @@
 # SIMC Quiz Web Application (Demo)
 
+<img width="1500" height="469" alt="image" src="https://github.com/user-attachments/assets/6f37f83a-95db-4dd4-9e28-c7c65907521a" />
+
+
+
 This repository is a **public demo and portfolio** version of a quiz web application built with React and Firebase.  
 It demonstrates a student quiz system with a lecturer management dashboard.
 
@@ -8,6 +12,8 @@ This demo does **not** include any real API keys or secrets.
 ---
 
 ## Overview
+
+<img width="535" height="341" alt="image" src="https://github.com/user-attachments/assets/40e728d0-b453-4bbb-ae73-60b4a68caa6e" />
 
 The application provides two main interfaces:
 
@@ -151,5 +157,4 @@ firebase deploy
 - Firebase client API keys must be provided by the user.
 - Proper Firestore security rules should be configured before real-world use.
 
----
 
