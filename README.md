@@ -1,4 +1,4 @@
-# SIMC Quiz Web Application (Demo)
+# SIMC Quiz Web Application
 
 <img width="1500" height="469" alt="image" src="https://github.com/user-attachments/assets/6f37f83a-95db-4dd4-9e28-c7c65907521a" />
 
