@@ -1,0 +1,13 @@
+rules_version = '2';
+
+// Minimal example rules for SiMC Quiz Portal.
+// The app authenticates students anonymously and reads/writes all data under
+// /artifacts/{appId}/public/data/. Tighten these before any production use —
+// e.g. restrict writes on quiz_subjects and quiz_pool to a lecturer custom claim.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /artifacts/{appId}/public/data/{collection}/{doc} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}
